@@ -1,0 +1,724 @@
+{
+  "version": 2,
+  "fetched": "2026-08-25",
+  "site": {
+    "name": "Red Tarn / Helvellyn, Lake District (Birkhouse Moor → below the west-flank headwall)",
+    "a": {
+      "lat": 54.53046,
+      "lon": -2.992096
+    },
+    "b": {
+      "lat": 54.52885254472795,
+      "lon": -3.0160862175276755
+    },
+    "midpoint": {
+      "lat": 54.5296568657547,
+      "lon": -3.0040913449193214
+    },
+    "lengthM": 1559.9914440473426,
+    "bearingDeg": 263.4132751021009,
+    "lineSurvey": {
+      "maxSlopeDegOnLine": 30.662215391098158,
+      "steepFlankPresent": true,
+      "blockedFlankNearLineM": 175,
+      "waterCrossing": {
+        "present": true,
+        "maxDistToShoreOnLineM": 11.088748044083728,
+        "whereAlongM": 981
+      },
+      "endsOnLand": true
+    }
+  },
+  "zooms": {
+    "near": 13,
+    "coarse": [
+      11,
+      9
+    ],
+    "roughnessH": {
+      "z11": 0.9089190813542307,
+      "z12": 0.9346797539051813,
+      "z13": 0.9778617989437642,
+      "z14": 0.9928767900908807
+    }
+  },
+  "tiles": [
+    {
+      "z": 13,
+      "x": 4026,
+      "y": 2609,
+      "file": "terrarium-13-4026-2609.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4026/2609.png",
+      "sha256": "123946971aff13f7ce72c1e384ab16ea51ee83b689bfccd2f73339a74e79d1b0",
+      "bytes": 104832,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 222.33984375
+      }
+    },
+    {
+      "z": 13,
+      "x": 4027,
+      "y": 2609,
+      "file": "terrarium-13-4027-2609.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4027/2609.png",
+      "sha256": "873a84f693e0cc8e96a19f8a7811a4e7a6d991e702db7b831efdc35962643a0b",
+      "bytes": 121035,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 830.02734375
+      }
+    },
+    {
+      "z": 13,
+      "x": 4028,
+      "y": 2609,
+      "file": "terrarium-13-4028-2609.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4028/2609.png",
+      "sha256": "1564f9900ab584ea9399ac833ad17fc0639e9bee688943f37f555b2272750474",
+      "bytes": 120133,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 340.58203125
+      }
+    },
+    {
+      "z": 13,
+      "x": 4026,
+      "y": 2610,
+      "file": "terrarium-13-4026-2610.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4026/2610.png",
+      "sha256": "e64ba597331e1f537f30bf0fae74352c10fcf37a46c56cea5542ab1292083ca3",
+      "bytes": 112017,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 222.50390625
+      }
+    },
+    {
+      "z": 13,
+      "x": 4027,
+      "y": 2610,
+      "file": "terrarium-13-4027-2610.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4027/2610.png",
+      "sha256": "e453b9b7cf0fa2537e4d0a75ca38f919787e5c47df7f5f1c74bf24477400fc40",
+      "bytes": 120986,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 796.609375
+      }
+    },
+    {
+      "z": 13,
+      "x": 4028,
+      "y": 2610,
+      "file": "terrarium-13-4028-2610.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4028/2610.png",
+      "sha256": "c624c2ddcf689e76da99873160ee9bb57e056fb1cbe2d501a90a16ee972edb4e",
+      "bytes": 123485,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 466.28125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1005,
+      "y": 651,
+      "file": "terrarium-11-1005-651.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1005/651.png",
+      "sha256": "e39b40c57e7525b839d128df2aacddcaa0ad931bda1b7dad07a8da654ffba8b0",
+      "bytes": 125884,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 299.27734375
+      }
+    },
+    {
+      "z": 11,
+      "x": 1006,
+      "y": 651,
+      "file": "terrarium-11-1006-651.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1006/651.png",
+      "sha256": "ee0f7f82c5a1fc5a827293ca3cb45276caccd80516edcec11d69965b561cfb3c",
+      "bytes": 129337,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 380.34765625
+      }
+    },
+    {
+      "z": 11,
+      "x": 1007,
+      "y": 651,
+      "file": "terrarium-11-1007-651.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1007/651.png",
+      "sha256": "54be200f0568585036dfd25e4cf5341c0f4e5cc041e1758d3d3e6d39d41e1332",
+      "bytes": 118657,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 249.2109375
+      }
+    },
+    {
+      "z": 11,
+      "x": 1008,
+      "y": 651,
+      "file": "terrarium-11-1008-651.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1008/651.png",
+      "sha256": "d6b8c9878da2ee7b0649bebbf6b9502befb547b2d02c3c96064a544a07d949d1",
+      "bytes": 112388,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 173.23828125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1005,
+      "y": 652,
+      "file": "terrarium-11-1005-652.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1005/652.png",
+      "sha256": "d527427ab04a383ae64b691d12a9d4cebd4349732189687b0d6eb5f7e01300b1",
+      "bytes": 137583,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 104.21875
+      }
+    },
+    {
+      "z": 11,
+      "x": 1006,
+      "y": 652,
+      "file": "terrarium-11-1006-652.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1006/652.png",
+      "sha256": "def065d565eeda69c9a28b6da9b4752e03b7b7fbd48d7cf08b7015c0abff25ad",
+      "bytes": 133861,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 433.78125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1007,
+      "y": 652,
+      "file": "terrarium-11-1007-652.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1007/652.png",
+      "sha256": "1c7fac30b68f46a53431743a576a8dc74dfad02b4c2dff2d19c3c6f4bd19ae99",
+      "bytes": 136354,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 483.17578125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1008,
+      "y": 652,
+      "file": "terrarium-11-1008-652.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1008/652.png",
+      "sha256": "28a64d7013464c7d54036d6338012895ba6d473d3563a785412bf78b0c437f8c",
+      "bytes": 122502,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 308.55078125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1005,
+      "y": 653,
+      "file": "terrarium-11-1005-653.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1005/653.png",
+      "sha256": "d468b58036b60867cd4a8fd4561e492d7715bb6d31a740ca97ccf3627df38a4c",
+      "bytes": 134611,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 264.20703125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1006,
+      "y": 653,
+      "file": "terrarium-11-1006-653.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1006/653.png",
+      "sha256": "1a35aad556ed71dc9b96148a6bd50fb200975fb6710e5ad780c1b2a5ff4e177a",
+      "bytes": 133315,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 107.4140625
+      }
+    },
+    {
+      "z": 11,
+      "x": 1007,
+      "y": 653,
+      "file": "terrarium-11-1007-653.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1007/653.png",
+      "sha256": "813039d2ddd67b103aacbea8a2fc7c003e088b9ec6270db401f98eda4f5701fa",
+      "bytes": 124863,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 162.01171875
+      }
+    },
+    {
+      "z": 11,
+      "x": 1008,
+      "y": 653,
+      "file": "terrarium-11-1008-653.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1008/653.png",
+      "sha256": "a26b837f2b9b4cb79d029161236308b05df9fe81929c845e9ab4d263662475bf",
+      "bytes": 127863,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 368.01953125
+      }
+    },
+    {
+      "z": 9,
+      "x": 250,
+      "y": 162,
+      "file": "terrarium-9-250-162.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/250/162.png",
+      "sha256": "7de765b5012acf46b9126e4556cde06cb18607e7947ab5dfa17dfb9b7db5b8a6",
+      "bytes": 105868,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -9.375
+      }
+    },
+    {
+      "z": 9,
+      "x": 251,
+      "y": 162,
+      "file": "terrarium-9-251-162.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/251/162.png",
+      "sha256": "7f4d24de1223581c9d4383d5e51640d029821b5b8d2a3b9275fc2f82b54449e8",
+      "bytes": 122383,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 143.41015625
+      }
+    },
+    {
+      "z": 9,
+      "x": 252,
+      "y": 162,
+      "file": "terrarium-9-252-162.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/252/162.png",
+      "sha256": "3d361c5bb1dc9eda33e61b1fd39e1a3d69290dc21f7976a310d81544c519b978",
+      "bytes": 135282,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 373.42578125
+      }
+    },
+    {
+      "z": 9,
+      "x": 250,
+      "y": 163,
+      "file": "terrarium-9-250-163.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/250/163.png",
+      "sha256": "d8c76903663d7e1da302a061baabe0fa5fa8620081e33cb748c2db1b3d01c4e6",
+      "bytes": 86779,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -37.13671875
+      }
+    },
+    {
+      "z": 9,
+      "x": 251,
+      "y": 163,
+      "file": "terrarium-9-251-163.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/251/163.png",
+      "sha256": "15a80aed86f7064bf70dc3e9844e772a702a37ca5345e92dd69a2221a4e4d3a2",
+      "bytes": 136250,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 309.39453125
+      }
+    },
+    {
+      "z": 9,
+      "x": 252,
+      "y": 163,
+      "file": "terrarium-9-252-163.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/252/163.png",
+      "sha256": "a679ef8a9697d3c785af9b56a81354fad8680beb9db940185847c08f4a83ccb7",
+      "bytes": 137892,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 234.7578125
+      }
+    },
+    {
+      "z": 9,
+      "x": 250,
+      "y": 164,
+      "file": "terrarium-9-250-164.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/250/164.png",
+      "sha256": "05f12a052984ebc48c6313e2ccc5e1a598d8191be8173cfd7e571da2e2967171",
+      "bytes": 71432,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -34.01953125
+      }
+    },
+    {
+      "z": 9,
+      "x": 251,
+      "y": 164,
+      "file": "terrarium-9-251-164.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/251/164.png",
+      "sha256": "e93e11a9a1b81b9df433847267ab37282d082d223318d3d1e408539a8c5acf47",
+      "bytes": 91805,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -15
+      }
+    },
+    {
+      "z": 9,
+      "x": 252,
+      "y": 164,
+      "file": "terrarium-9-252-164.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/252/164.png",
+      "sha256": "b875286a1d5cc71c0271f3652a1f6168b4ee2a8432275b8d585b7008fa41a9bc",
+      "bytes": 132741,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 182.00390625
+      }
+    }
+  ],
+  "worldcover": {
+    "file": "wc-14-8053-5218-4x3.png",
+    "source": "ESA WorldCover 2021 v200 via Terrascope WMTS (esa-worldcover-map-10m-2021-v2_map, EPSG:3857) — rendered tiles decoded to class codes by nearest palette colour",
+    "urls": [
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8053&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8053&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8053&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01"
+    ],
+    "sha256": "b80e6023e7f0ac00f9f09357be6978443eb9ef232b23afbaa4833ed51e993b93",
+    "bytes": 9738,
+    "z": 14,
+    "x0": 8053,
+    "y0": 5218,
+    "cols": 4,
+    "rows": 3,
+    "width": 1024,
+    "height": 768,
+    "encoding": "class-grayscale-png",
+    "classAtTarnProbe": 80,
+    "palette": {
+      "10": [
+        0,
+        100,
+        0
+      ],
+      "20": [
+        255,
+        187,
+        34
+      ],
+      "30": [
+        255,
+        255,
+        76
+      ],
+      "40": [
+        240,
+        150,
+        255
+      ],
+      "50": [
+        250,
+        0,
+        0
+      ],
+      "60": [
+        180,
+        180,
+        180
+      ],
+      "70": [
+        240,
+        240,
+        240
+      ],
+      "80": [
+        0,
+        100,
+        200
+      ],
+      "90": [
+        0,
+        150,
+        160
+      ],
+      "95": [
+        0,
+        207,
+        117
+      ],
+      "100": [
+        250,
+        230,
+        160
+      ]
+    }
+  },
+  "benchmarks": [
+    {
+      "id": "summit",
+      "name": "Helvellyn summit (trig pillar NY 34170 15130)",
+      "lat": 54.527156,
+      "lon": -3.018672,
+      "surveyedElevM": 950,
+      "surveySource": "OS Explorer OL5 / OS trig pillar Helvellyn, 950 m; grid ref → WGS84 via OSTN-free Helmert (±5 m)",
+      "recordedHeightM": 944.8158250462891
+    },
+    {
+      "id": "tarn-shore",
+      "name": "Red Tarn, north shore (first water cell where the line enters)",
+      "lat": 54.529474699672576,
+      "lon": -3.0065202713012695,
+      "surveyedElevM": 718,
+      "surveySource": "OS Explorer OL5 lake level 718 m (Red Tarn)",
+      "recordedHeightM": 716.5840384960175
+    },
+    {
+      "id": "valley-floor",
+      "name": "Ullswater surface off Glenridding (valley floor)",
+      "lat": 54.541,
+      "lon": -2.946,
+      "surveyedElevM": 145,
+      "surveySource": "OS Landranger 90 lake level 145 m (Ullswater)",
+      "recordedHeightM": 144.59392032093353
+    }
+  ],
+  "attribution": [
+    "Elevation: Terrain Tiles (AWS Open Data) by Mapzen/Tilezen (Joerd) — this slice: UK Environment Agency LIDAR DTM 2 m + EU-DEM (Copernicus); see tilezen/joerd attribution.md",
+    "© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium — CC BY 4.0, served by Terrascope (VITO)"
+  ],
+  "factors": {
+    "koppen": {
+      "file": "koppen.png",
+      "sha256": "2e78d24394be575b2d3940d4270d2b8c9f5f426e7e2f0933dae597f127aa1545",
+      "bytes": 89,
+      "license": "CC BY 4.0",
+      "source": "Köppen-Geiger V3 (Beck et al. 2023), 1991–2020 1 km",
+      "urls": [
+        "https://ndownloader.figshare.com/files/61012822"
+      ],
+      "fetchedAt": "2026-08-25T22:20:43.485Z",
+      "grid": {
+        "w": 9,
+        "h": 5,
+        "bbox": [
+          -3.041666666666657,
+          54.50833333333333,
+          -2.9666666666666686,
+          54.55
+        ]
+      },
+      "values": {
+        "modalClass": 15,
+        "requestedBbox": "[-3.0393071332536152,54.515377877103084,-2.9688750842740603,54.54393466762486]"
+      }
+    },
+    "sand": {
+      "file": "soil-sand.png",
+      "sha256": "8f21e1a8033d195141c221c853bb25a02abed77a9925da0238a3ef913997133c",
+      "bytes": 241,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — sand_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/sand.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=sand_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-3.03931,-2.96888)&SUBSET=lat(54.51538,54.54393)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-08-25T22:21:08.963Z",
+      "grid": {
+        "w": 31,
+        "h": 12,
+        "bbox": [
+          -3.03931,
+          54.51538000000001,
+          -2.96888,
+          54.54393
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-sand.tif",
+        "tifSha256": "ea682d9a28e335264f2ed147c5ade426e15c210ff511f48736ef88b3038a5229",
+        "tifBytes": 1098
+      }
+    },
+    "clay": {
+      "file": "soil-clay.png",
+      "sha256": "6aa4590f7213a732c515c149c7f9946f943fdb311c0efddc8123adfa9eb61a4a",
+      "bytes": 198,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — clay_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/clay.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=clay_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-3.03931,-2.96888)&SUBSET=lat(54.51538,54.54393)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-08-25T22:21:11.380Z",
+      "grid": {
+        "w": 31,
+        "h": 12,
+        "bbox": [
+          -3.03931,
+          54.51538000000001,
+          -2.96888,
+          54.54393
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-clay.tif",
+        "tifSha256": "35563c0c4f2a73e29cc97e2085ec699810d88be40de6df324d8116a58f05564e",
+        "tifBytes": 1078
+      }
+    },
+    "cfvo": {
+      "file": "soil-cfvo.png",
+      "sha256": "a9b7ef427c3ea2810b1a06ce2f57edcf0a31e8cf5d8f87b22e5a2aab7ad7e3e4",
+      "bytes": 217,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — cfvo_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/cfvo.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=cfvo_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-3.03931,-2.96888)&SUBSET=lat(54.51538,54.54393)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-08-25T22:21:11.581Z",
+      "grid": {
+        "w": 31,
+        "h": 12,
+        "bbox": [
+          -3.03931,
+          54.51538000000001,
+          -2.96888,
+          54.54393
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-cfvo.tif",
+        "tifSha256": "228049e1b468dee58f5582ceabbcc6fa607caae4a8a3fc1517bd635b66ca16f0",
+        "tifBytes": 1094
+      }
+    },
+    "lgm": {
+      "license": "CC BY 4.0",
+      "source": "PaleoMIST v1.0 (Gowan 2019), PANGAEA 905800",
+      "urls": [
+        "https://doi.pangaea.de/10.1594/PANGAEA.905800"
+      ],
+      "fetchedAt": "2026-08-25T22:21:11.581Z",
+      "absent": "not snapshotted: no .cache/factors/paleomist.nc — the scripted source is a 3.7 GB archive (see comment); factor recorded absent until the range-read lands or a manual drop appears. Recorded rather than invented; FactorQuery reports lgm absent-with-reason until a manual cache drop or the mapping lands."
+    },
+    "lith": {
+      "license": "CC BY 4.0",
+      "source": "Macrostrat (deferred: block cut 1)",
+      "urls": [
+        "https://tiles.macrostrat.org/"
+      ],
+      "fetchedAt": "2026-08-25T22:21:11.581Z",
+      "absent": "lithology deferred per factor-stack cut line 1 (c53); Macrostrat CORS measured OPEN c57, so live fetch is viable when the MVT decode lands — the backlog item carries the path. Stated here so FIXTURE boots surface the absence too (gauntlet G3: only live boots stated it)."
+    }
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "version": 2,
+  "fetched": "2026-08-25",
+  "pack": {
+    "id": "sundance",
+    "root": "/fixtures/lines/sundance",
+    "corridor": {
+      "nearZoom": 13,
+      "nearMarginM": 1500,
+      "coarse": [
+        {
+          "zoom": 11,
+          "radiusM": 12500
+        },
+        {
+          "zoom": 9,
+          "radiusM": 45000
+        }
+      ],
+      "tileCount": 38,
+      "corridorKey": "13/11+9/38/13.1463.2736,13.1464.2736,13.1465.2736,13.1466.2736,13.1467.2736,13.1463.2737,13.1464.2737,13.1465.2737,13.1466.2737,13.1467.2737,13.1463.2738,13.1464.2738,13.1465.2738,13.1466.2738,13.1467.2738,13.1463.2739,13.1464.2739,13.1465.2739,13.1466.2739,13.1467.2739,11.365.683,11.366.683,11.367.683,11.365.684,11.366.684,11.367.684,11.365.685,11.366.685,11.367.685,9.90.170,9.91.170,9.92.170,9.90.171,9.91.171,9.92.171,9.90.172,9.91.172,9.92.172"
+    }
+  },
+  "site": {
+    "name": "sundance — 51.155,-115.65 → 51.1,-115.55",
+    "a": {
+      "lat": 51.155,
+      "lon": -115.65
+    },
+    "b": {
+      "lat": 51.1,
+      "lon": -115.55
+    },
+    "midpoint": {
+      "lat": 51.127510659732856,
+      "lon": -115.59997022937243
+    },
+    "lengthM": 9289.507880626095,
+    "bearingDeg": 131.23032952896347,
+    "lineSurvey": {
+      "maxSlopeDegOnLine": 32.01298830418693,
+      "steepFlankPresent": true,
+      "blockedFlankNearLineM": null,
+      "waterCrossing": {
+        "present": false,
+        "maxDistToShoreOnLineM": 0,
+        "whereAlongM": null
+      },
+      "endsOnLand": true
+    }
+  },
+  "zooms": {
+    "near": 13,
+    "coarse": [
+      11,
+      9
+    ],
+    "roughnessH": {
+      "z11": 0.9394713859103231,
+      "z12": 0.967000193737643,
+      "z13": 0.9917805060381185,
+      "z14": 1.000100853310256,
+      "z15": 0.9992788665326847
+    }
+  },
+  "tiles": [
+    {
+      "z": 13,
+      "x": 1463,
+      "y": 2736,
+      "file": "terrarium-13-1463-2736.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1463/2736.png",
+      "sha256": "8ee628e222ee5f2b0cb80a28a9d2a5a5c35884736653a1a2def3b87bb72e3b21",
+      "bytes": 17671,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1400
+      }
+    },
+    {
+      "z": 13,
+      "x": 1464,
+      "y": 2736,
+      "file": "terrarium-13-1464-2736.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1464/2736.png",
+      "sha256": "fd58ca8add880fa2d33fe1f9de85bc1b2de6d0183a2876df70bf7b1f9dae8ed6",
+      "bytes": 11001,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1401
+      }
+    },
+    {
+      "z": 13,
+      "x": 1465,
+      "y": 2736,
+      "file": "terrarium-13-1465-2736.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1465/2736.png",
+      "sha256": "3eebc5f97f9a18fde7f110b20fcbeee736f78fa1fc7237de8e885374cc24bf35",
+      "bytes": 16447,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1504
+      }
+    },
+    {
+      "z": 13,
+      "x": 1466,
+      "y": 2736,
+      "file": "terrarium-13-1466-2736.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1466/2736.png",
+      "sha256": "321118e555229ab06134af63f85e92c9e92b74c426b9217c2f9bb5a626894521",
+      "bytes": 19084,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1400
+      }
+    },
+    {
+      "z": 13,
+      "x": 1467,
+      "y": 2736,
+      "file": "terrarium-13-1467-2736.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1467/2736.png",
+      "sha256": "9a6e883f7164e803451cb2bab964aa41a31224a25f140f64a67e5d927cd101c2",
+      "bytes": 20587,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1481
+      }
+    },
+    {
+      "z": 13,
+      "x": 1463,
+      "y": 2737,
+      "file": "terrarium-13-1463-2737.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1463/2737.png",
+      "sha256": "f69d4a9617e7bda8bbe4e25870fe3a8bb97ad88c1d87bb447ad410dd3d11a88e",
+      "bytes": 20948,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1512
+      }
+    },
+    {
+      "z": 13,
+      "x": 1464,
+      "y": 2737,
+      "file": "terrarium-13-1464-2737.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1464/2737.png",
+      "sha256": "c081cf1d7a0c6caf3f8a1cde897803934e7e027f1eb1f2e1d8ecf422868fb970",
+      "bytes": 25214,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1920
+      }
+    },
+    {
+      "z": 13,
+      "x": 1465,
+      "y": 2737,
+      "file": "terrarium-13-1465-2737.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1465/2737.png",
+      "sha256": "339d652476dd7faaf522a29aefe76d4f8ef6845d4227004c4a4e368a6af8e9aa",
+      "bytes": 21610,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1592
+      }
+    },
+    {
+      "z": 13,
+      "x": 1466,
+      "y": 2737,
+      "file": "terrarium-13-1466-2737.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1466/2737.png",
+      "sha256": "cbcf2da49b6c9567b4851998157e57caffefe9a7d2311fbb6e242afa02c21263",
+      "bytes": 24907,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1694
+      }
+    },
+    {
+      "z": 13,
+      "x": 1467,
+      "y": 2737,
+      "file": "terrarium-13-1467-2737.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1467/2737.png",
+      "sha256": "51e75319009b4ebcbf2cb810af0bf67bbc2b0ffa1fd9fad597cf298b6a878d4a",
+      "bytes": 28160,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2032
+      }
+    },
+    {
+      "z": 13,
+      "x": 1463,
+      "y": 2738,
+      "file": "terrarium-13-1463-2738.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1463/2738.png",
+      "sha256": "98f4d404df9d064d80a10259e198f280c94613d0c19e336c33db1518c0994719",
+      "bytes": 21826,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1661
+      }
+    },
+    {
+      "z": 13,
+      "x": 1464,
+      "y": 2738,
+      "file": "terrarium-13-1464-2738.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1464/2738.png",
+      "sha256": "7fe423295e2f470389bd93f8b31543e49f41e4f1b9a0c624c014777a19739a0c",
+      "bytes": 27676,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2248
+      }
+    },
+    {
+      "z": 13,
+      "x": 1465,
+      "y": 2738,
+      "file": "terrarium-13-1465-2738.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1465/2738.png",
+      "sha256": "e2731eac8c170085d210dabb713149edcfdd5d17c2806660cc6d266f2a953a2b",
+      "bytes": 23809,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2048
+      }
+    },
+    {
+      "z": 13,
+      "x": 1466,
+      "y": 2738,
+      "file": "terrarium-13-1466-2738.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1466/2738.png",
+      "sha256": "e8e862d085ad03816f2b187b81e21210068275f18515dc6f2cc5e6ca8229e773",
+      "bytes": 26041,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1965
+      }
+    },
+    {
+      "z": 13,
+      "x": 1467,
+      "y": 2738,
+      "file": "terrarium-13-1467-2738.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1467/2738.png",
+      "sha256": "58bf474bf6825c4268a170472122b7623fd9391a542b18e31cf7d8b797092a03",
+      "bytes": 24292,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1485
+      }
+    },
+    {
+      "z": 13,
+      "x": 1463,
+      "y": 2739,
+      "file": "terrarium-13-1463-2739.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1463/2739.png",
+      "sha256": "70f424ea5df73e1ede86ad6310ed4c4bfdb753873814cd0a2c766dce7b25fe3f",
+      "bytes": 23940,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1683
+      }
+    },
+    {
+      "z": 13,
+      "x": 1464,
+      "y": 2739,
+      "file": "terrarium-13-1464-2739.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1464/2739.png",
+      "sha256": "4d95eb5548ddf81942054e5b2373ff1ef2b01794060fcfc4c07410358a68dfe0",
+      "bytes": 26153,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1810
+      }
+    },
+    {
+      "z": 13,
+      "x": 1465,
+      "y": 2739,
+      "file": "terrarium-13-1465-2739.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1465/2739.png",
+      "sha256": "ec1affcb7dbb8bd5d3b1382d28c04855750e4a935c2423091e5d551105ca4b00",
+      "bytes": 27920,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2384
+      }
+    },
+    {
+      "z": 13,
+      "x": 1466,
+      "y": 2739,
+      "file": "terrarium-13-1466-2739.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1466/2739.png",
+      "sha256": "ad64edcb8bc3b724bb798ccc12e5b434d94f3851d5b2ecb4c94ac869ec3a669d",
+      "bytes": 23123,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1842
+      }
+    },
+    {
+      "z": 13,
+      "x": 1467,
+      "y": 2739,
+      "file": "terrarium-13-1467-2739.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/1467/2739.png",
+      "sha256": "9bca0aae9ef219a90fa08b395cdd63f1c4ead3c856273282741235d375b65d29",
+      "bytes": 22540,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1648
+      }
+    },
+    {
+      "z": 11,
+      "x": 365,
+      "y": 683,
+      "file": "terrarium-11-365-683.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/365/683.png",
+      "sha256": "7c640cbb1ccfdac31b1b3196312883ea3dc8dfa9b1674c1516a93b29727ec4c5",
+      "bytes": 52003,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2007
+      }
+    },
+    {
+      "z": 11,
+      "x": 366,
+      "y": 683,
+      "file": "terrarium-11-366-683.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/366/683.png",
+      "sha256": "2bbd1bfae901fbea08fa8ab8b46013b2dd3caa6b99c1a34be9f2d295f6001d32",
+      "bytes": 47280,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2527
+      }
+    },
+    {
+      "z": 11,
+      "x": 367,
+      "y": 683,
+      "file": "terrarium-11-367-683.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/367/683.png",
+      "sha256": "4f7c5251eba2f4e422f22bcd621fd6d8d25f61c1508b8ce3cd9046f1797251ca",
+      "bytes": 48367,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2812
+      }
+    },
+    {
+      "z": 11,
+      "x": 365,
+      "y": 684,
+      "file": "terrarium-11-365-684.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/365/684.png",
+      "sha256": "3b0431aa58d8c70ef6a4f8364919d5fcf9e68068a609f19dc0d948d918b9034f",
+      "bytes": 50973,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1973
+      }
+    },
+    {
+      "z": 11,
+      "x": 366,
+      "y": 684,
+      "file": "terrarium-11-366-684.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/366/684.png",
+      "sha256": "3ae9d57c47752e8bc4e096b01b305438dceb181e3aa81fa584a9a61acebdc289",
+      "bytes": 48977,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1752
+      }
+    },
+    {
+      "z": 11,
+      "x": 367,
+      "y": 684,
+      "file": "terrarium-11-367-684.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/367/684.png",
+      "sha256": "82f4caafc8135645ec133faa05f07eff9ba07138d879b1699554adb3eb26bb8b",
+      "bytes": 46739,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1319
+      }
+    },
+    {
+      "z": 11,
+      "x": 365,
+      "y": 685,
+      "file": "terrarium-11-365-685.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/365/685.png",
+      "sha256": "97a2643243b70b738642c79ea8d11cfbda4a4925577f7b7be5e4aefaaebc4e0f",
+      "bytes": 56942,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1558
+      }
+    },
+    {
+      "z": 11,
+      "x": 366,
+      "y": 685,
+      "file": "terrarium-11-366-685.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/366/685.png",
+      "sha256": "04e71318f8425eed44c6663cfb1998fa38cd4ddb2f5aee1d08a191421b949cfe",
+      "bytes": 55376,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1849
+      }
+    },
+    {
+      "z": 11,
+      "x": 367,
+      "y": 685,
+      "file": "terrarium-11-367-685.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/367/685.png",
+      "sha256": "5480f822457e3330a17f9336c419b16fe678e7be64969959316b2d1d032ca01c",
+      "bytes": 53376,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1685
+      }
+    },
+    {
+      "z": 9,
+      "x": 90,
+      "y": 170,
+      "file": "terrarium-9-90-170.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/90/170.png",
+      "sha256": "cc22c53e0e519a4b2331b626df06f2ce6f706f4f56ed74603fadb77dcb108827",
+      "bytes": 86260,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2181
+      }
+    },
+    {
+      "z": 9,
+      "x": 91,
+      "y": 170,
+      "file": "terrarium-9-91-170.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/91/170.png",
+      "sha256": "de53315b9042e8b61568a835cbc33658ffb34328a91f1c2e231db972be9c658b",
+      "bytes": 84531,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1954
+      }
+    },
+    {
+      "z": 9,
+      "x": 92,
+      "y": 170,
+      "file": "terrarium-9-92-170.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/92/170.png",
+      "sha256": "d1bc2365fef88c88f4ec956daf5ae4bc23c1a0df8b1ea16c5458c8c1f98687c4",
+      "bytes": 62729,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1651
+      }
+    },
+    {
+      "z": 9,
+      "x": 90,
+      "y": 171,
+      "file": "terrarium-9-90-171.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/90/171.png",
+      "sha256": "895edbe79cb88a6fef5eaa317df169a70887b46f124ce750a3ccbc56269e323a",
+      "bytes": 83755,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1416
+      }
+    },
+    {
+      "z": 9,
+      "x": 91,
+      "y": 171,
+      "file": "terrarium-9-91-171.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/91/171.png",
+      "sha256": "69e0072811ce9ccb61ccc14e47a85581e8161a66c5f17cd3147f0cecfcff8eac",
+      "bytes": 86796,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2182
+      }
+    },
+    {
+      "z": 9,
+      "x": 92,
+      "y": 171,
+      "file": "terrarium-9-92-171.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/92/171.png",
+      "sha256": "6f706f2d8768a7fe61a63f279fb8ea5440a667d5e71eaf88afef4b3ef66bc784",
+      "bytes": 76382,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1775
+      }
+    },
+    {
+      "z": 9,
+      "x": 90,
+      "y": 172,
+      "file": "terrarium-9-90-172.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/90/172.png",
+      "sha256": "11b6020379d696f9f6e48a5cb565e319d463cca52db69304a88964341cf44faa",
+      "bytes": 86193,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2524
+      }
+    },
+    {
+      "z": 9,
+      "x": 91,
+      "y": 172,
+      "file": "terrarium-9-91-172.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/91/172.png",
+      "sha256": "6f288c40a877280df3109a5973d7985c0d7e4eb5475568219231c80be256aa70",
+      "bytes": 86089,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 1119
+      }
+    },
+    {
+      "z": 9,
+      "x": 92,
+      "y": 172,
+      "file": "terrarium-9-92-172.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/92/172.png",
+      "sha256": "60182242ec713992c855fe9532e720ea62dec2cefc7a10cd829be812152e5888",
+      "bytes": 84789,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 2474
+      }
+    }
+  ],
+  "worldcover": {
+    "file": "wc-14-2927-5472-8x7.png",
+    "source": "ESA WorldCover 2021 v200 via Terrascope WMTS (esa-worldcover-map-10m-2021-v2_map, EPSG:3857) — rendered tiles decoded to class codes by nearest palette colour",
+    "urls": [
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5472&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5473&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5474&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5475&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5476&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5477&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2927&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2928&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2929&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2930&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2931&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2932&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2933&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5478&TILECOL=2934&FORMAT=image/png&TIME=2021-01-01"
+    ],
+    "sha256": "99cd265c4eed2dedf143dbd7939fa09c1786ca9b7cb012b2f2f46deaf991d425",
+    "bytes": 102425,
+    "z": 14,
+    "x0": 2927,
+    "y0": 5472,
+    "cols": 8,
+    "rows": 7,
+    "width": 2048,
+    "height": 1792,
+    "encoding": "class-grayscale-png",
+    "classAtTarnProbe": 10,
+    "palette": {
+      "10": [
+        0,
+        100,
+        0
+      ],
+      "20": [
+        255,
+        187,
+        34
+      ],
+      "30": [
+        255,
+        255,
+        76
+      ],
+      "40": [
+        240,
+        150,
+        255
+      ],
+      "50": [
+        250,
+        0,
+        0
+      ],
+      "60": [
+        180,
+        180,
+        180
+      ],
+      "70": [
+        240,
+        240,
+        240
+      ],
+      "80": [
+        0,
+        100,
+        200
+      ],
+      "90": [
+        0,
+        150,
+        160
+      ],
+      "95": [
+        0,
+        207,
+        117
+      ],
+      "100": [
+        250,
+        230,
+        160
+      ]
+    }
+  },
+  "benchmarks": [
+    {
+      "id": "a-end",
+      "name": "sundance A endpoint",
+      "lat": 51.155,
+      "lon": -115.65,
+      "surveyedElevM": 1454.0626798998903,
+      "surveySource": "no independent survey — recorded decode only",
+      "recordedHeightM": 1454.0626798998903
+    },
+    {
+      "id": "b-end",
+      "name": "sundance B endpoint",
+      "lat": 51.1,
+      "lon": -115.55,
+      "surveyedElevM": 1822.746235722533,
+      "surveySource": "no independent survey — recorded decode only",
+      "recordedHeightM": 1822.746235722533
+    }
+  ],
+  "attribution": [
+    "Elevation: Terrain Tiles (AWS Open Data) by Mapzen/Tilezen (Joerd) — a mosaic of public DEMs (SRTM plus regional overrides: 3DEP US, EU-DEM, UK EA LIDAR, …); see tilezen/joerd attribution.md",
+    "© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium — CC BY 4.0, served by Terrascope (VITO)"
+  ],
+  "factors": {
+    "koppen": {
+      "file": "koppen.png",
+      "sha256": "a5347f18e49374fac76a9caaa883eb6742ace082b352da63a5af97a8beb3ffbc",
+      "bytes": 104,
+      "license": "CC BY 4.0",
+      "source": "Köppen-Geiger V3 (Beck et al. 2023), 1991–2020 1 km",
+      "urls": [
+        "https://ndownloader.figshare.com/files/61012822"
+      ],
+      "fetchedAt": "2026-08-25T18:12:41.628Z",
+      "grid": {
+        "w": 18,
+        "h": 11,
+        "bbox": [
+          -115.675,
+          51.083333333333336,
+          -115.525,
+          51.175
+        ]
+      },
+      "values": {
+        "modalClass": 27,
+        "requestedBbox": "[-115.6714705131008,51.08652533237514,-115.5285294868992,51.168474667624864]"
+      }
+    },
+    "sand": {
+      "file": "soil-sand.png",
+      "sha256": "0936ef69de49a8b799938a0af121f02ac3bafa83f81e84f49468e4ce3610fe06",
+      "bytes": 777,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — sand_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/sand.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=sand_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-115.67147,-115.52853)&SUBSET=lat(51.08653,51.16847)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-08-25T18:12:41.787Z",
+      "grid": {
+        "w": 63,
+        "h": 34,
+        "bbox": [
+          -115.67146999999999,
+          51.08653,
+          -115.52852999999999,
+          51.16847
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-sand.tif",
+        "tifSha256": "b61845d0558f79d6808d99aea711d60c4b2554056a882dc79cdc2fabab96a3cc",
+        "tifBytes": 2902
+      }
+    },
+    "clay": {
+      "file": "soil-clay.png",
+      "sha256": "796438bbbf2d5466d34d3b1d21a1d986a1326e7dc3a4517161d36b9b7a3e3727",
+      "bytes": 773,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — clay_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/clay.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=clay_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-115.67147,-115.52853)&SUBSET=lat(51.08653,51.16847)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-08-25T18:12:42.988Z",
+      "grid": {
+        "w": 63,
+        "h": 34,
+        "bbox": [
+          -115.67146999999999,
+          51.08653,
+          -115.52852999999999,
+          51.16847
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-clay.tif",
+        "tifSha256": "73601241babecf403fcf7680ce25faeeca354b66ea29fc7e1ad085feddc216d3",
+        "tifBytes": 2907
+      }
+    },
+    "cfvo": {
+      "file": "soil-cfvo.png",
+      "sha256": "bde0fa8c07cc2d465150c8748d840e50598e130376e9270e51cf368021cbf251",
+      "bytes": 889,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — cfvo_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/cfvo.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=cfvo_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-115.67147,-115.52853)&SUBSET=lat(51.08653,51.16847)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-08-25T18:12:47.173Z",
+      "grid": {
+        "w": 63,
+        "h": 34,
+        "bbox": [
+          -115.67146999999999,
+          51.08653,
+          -115.52852999999999,
+          51.16847
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-cfvo.tif",
+        "tifSha256": "ac9ca8f33690068d46c1440c98f807f27f6f3de8012ef73d34f5d9c525cd3921",
+        "tifBytes": 3022
+      }
+    },
+    "lgm": {
+      "license": "CC BY 4.0",
+      "source": "PaleoMIST v1.0 (Gowan 2019), PANGAEA 905800",
+      "urls": [
+        "https://doi.pangaea.de/10.1594/PANGAEA.905800"
+      ],
+      "fetchedAt": "2026-08-25T18:12:47.173Z",
+      "absent": "not snapshotted: no .cache/factors/paleomist.nc — the scripted source is a 3.7 GB archive (see comment); factor recorded absent until the range-read lands or a manual drop appears. Recorded rather than invented; FactorQuery reports lgm absent-with-reason until a manual cache drop or the mapping lands."
+    },
+    "lith": {
+      "license": "CC BY 4.0",
+      "source": "Macrostrat (deferred: block cut 1)",
+      "urls": [
+        "https://tiles.macrostrat.org/"
+      ],
+      "fetchedAt": "2026-08-25T18:12:47.173Z",
+      "absent": "lithology deferred per factor-stack cut line 1 (c53); Macrostrat CORS measured OPEN c57, so live fetch is viable when the MVT decode lands — the backlog item carries the path. Stated here so FIXTURE boots surface the absence too (gauntlet G3: only live boots stated it)."
+    }
+  }
+}

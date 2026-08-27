@@ -1,0 +1,565 @@
+{
+  "version": 2,
+  "fetched": "2026-08-20",
+  "site": {
+    "name": "Red Tarn / Helvellyn, Lake District (Birkhouse Moor → Helvellyn west flank)",
+    "a": {
+      "lat": 54.53046,
+      "lon": -2.992096
+    },
+    "b": {
+      "lat": 54.528398,
+      "lon": -3.02287
+    },
+    "midpoint": {
+      "lat": 54.52942997643081,
+      "lon": -3.0074833885920578
+    },
+    "lengthM": 2001.1256648516803,
+    "bearingDeg": 263.41331138756146,
+    "lineSurvey": {
+      "maxSlopeDegOnLine": 39.63939653517885,
+      "steepFlankPresent": true,
+      "blockedFlankNearLineM": 30,
+      "waterCrossing": {
+        "present": true,
+        "maxDistToShoreOnLineM": 11.08880967248604,
+        "whereAlongM": 981
+      },
+      "endsOnLand": true
+    }
+  },
+  "zooms": {
+    "near": 13,
+    "coarse": [
+      11,
+      9
+    ],
+    "roughnessH": {
+      "z11": 0.9089190813542307,
+      "z12": 0.9346797539051813,
+      "z13": 0.9778617989437642,
+      "z14": 0.9928767900908807
+    }
+  },
+  "tiles": [
+    {
+      "z": 13,
+      "x": 4026,
+      "y": 2609,
+      "file": "terrarium-13-4026-2609.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "988e0ce016ba7ba31bfa72b9bcfe3f2d62662dfa28f781ebe3eeb0f31c6f18af",
+      "bytes": 134479,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 222.33984375
+      }
+    },
+    {
+      "z": 13,
+      "x": 4027,
+      "y": 2609,
+      "file": "terrarium-13-4027-2609.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "5fd9e8375c6492d0e49d5947cd7f9eb0eef212cd2cbd6004aade04d1be0c5571",
+      "bytes": 162178,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 830.02734375
+      }
+    },
+    {
+      "z": 13,
+      "x": 4028,
+      "y": 2609,
+      "file": "terrarium-13-4028-2609.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "c83fb8bb4f9cdd33931cb77cad41af97a9d9b89e701569e325bdad803718a1fd",
+      "bytes": 162169,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 340.58203125
+      }
+    },
+    {
+      "z": 13,
+      "x": 4026,
+      "y": 2610,
+      "file": "terrarium-13-4026-2610.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "ff65f24e613e0b135e9014363033a4fd402494fac090de33f3d3e9248b6469b5",
+      "bytes": 152987,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 222.50390625
+      }
+    },
+    {
+      "z": 13,
+      "x": 4027,
+      "y": 2610,
+      "file": "terrarium-13-4027-2610.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "b702faf2368b9565c134f85b007c2c26dd6f141471039630c384972740a66908",
+      "bytes": 161844,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 796.609375
+      }
+    },
+    {
+      "z": 13,
+      "x": 4028,
+      "y": 2610,
+      "file": "terrarium-13-4028-2610.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "5d203a19c73bbbb8c05793dbfc1b6b3276482c28523206bbc29e74479207a335",
+      "bytes": 164008,
+      "corsAllowOrigin": "*",
+      "role": "near",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 466.28125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1005,
+      "y": 651,
+      "file": "terrarium-11-1005-651.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "a3ca545dc7efcce40bf53c32c27914befd9d1c55b06ed21b410097150afc6121",
+      "bytes": 156897,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 299.27734375
+      }
+    },
+    {
+      "z": 11,
+      "x": 1006,
+      "y": 651,
+      "file": "terrarium-11-1006-651.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "c1b3ee9867519720a02495c4018f85c53b3d6c9ffeb946cb41c30d063b6b32d9",
+      "bytes": 160710,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 380.34765625
+      }
+    },
+    {
+      "z": 11,
+      "x": 1007,
+      "y": 651,
+      "file": "terrarium-11-1007-651.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "8942bf9a0c7b6e942b473029ebe13e5a23623483160c18168362e2a65824e8ca",
+      "bytes": 154221,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 249.2109375
+      }
+    },
+    {
+      "z": 11,
+      "x": 1005,
+      "y": 652,
+      "file": "terrarium-11-1005-652.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "af7d804c80e8b2c143fd2ebd0d1066490dc4edef299dc871063fcdce112bd787",
+      "bytes": 163123,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 104.21875
+      }
+    },
+    {
+      "z": 11,
+      "x": 1006,
+      "y": 652,
+      "file": "terrarium-11-1006-652.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "58227b66d37e57cc2c68436e14d6a1a344e06217cfac2c1bea259e5161b6131a",
+      "bytes": 162477,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 433.78125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1007,
+      "y": 652,
+      "file": "terrarium-11-1007-652.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "2101fa91a33768e9f3d1454bb21c7e880ff12895c2d058dfeee90ab29da742ae",
+      "bytes": 161061,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 483.17578125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1005,
+      "y": 653,
+      "file": "terrarium-11-1005-653.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "747314bc4961cc86a05aaf369d41a25263daf9d48f08b856bba23dc2959adc14",
+      "bytes": 161717,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 264.20703125
+      }
+    },
+    {
+      "z": 11,
+      "x": 1006,
+      "y": 653,
+      "file": "terrarium-11-1006-653.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "16589dbe1fc5f0a1dc2c1c94148a80f101415d1b6fc2f64b8722be4b75ef39cb",
+      "bytes": 164426,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 107.4140625
+      }
+    },
+    {
+      "z": 11,
+      "x": 1007,
+      "y": 653,
+      "file": "terrarium-11-1007-653.png",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N54_00_W004_00_DEM/Copernicus_DSM_COG_10_N54_00_W004_00_DEM.tif",
+      "sha256": "790338b9b1d69ae3e065f1e7f17d51208a6cb70c75b83f6b747ce634be17754c",
+      "bytes": 152863,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 162.01171875
+      }
+    },
+    {
+      "z": 9,
+      "x": 250,
+      "y": 162,
+      "file": "terrarium-9-250-162.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/250/162.png",
+      "sha256": "7de765b5012acf46b9126e4556cde06cb18607e7947ab5dfa17dfb9b7db5b8a6",
+      "bytes": 105868,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -9.375
+      }
+    },
+    {
+      "z": 9,
+      "x": 251,
+      "y": 162,
+      "file": "terrarium-9-251-162.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/251/162.png",
+      "sha256": "7f4d24de1223581c9d4383d5e51640d029821b5b8d2a3b9275fc2f82b54449e8",
+      "bytes": 122383,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 143.41015625
+      }
+    },
+    {
+      "z": 9,
+      "x": 252,
+      "y": 162,
+      "file": "terrarium-9-252-162.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/252/162.png",
+      "sha256": "3d361c5bb1dc9eda33e61b1fd39e1a3d69290dc21f7976a310d81544c519b978",
+      "bytes": 135282,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 373.42578125
+      }
+    },
+    {
+      "z": 9,
+      "x": 250,
+      "y": 163,
+      "file": "terrarium-9-250-163.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/250/163.png",
+      "sha256": "d8c76903663d7e1da302a061baabe0fa5fa8620081e33cb748c2db1b3d01c4e6",
+      "bytes": 86779,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -37.13671875
+      }
+    },
+    {
+      "z": 9,
+      "x": 251,
+      "y": 163,
+      "file": "terrarium-9-251-163.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/251/163.png",
+      "sha256": "15a80aed86f7064bf70dc3e9844e772a702a37ca5345e92dd69a2221a4e4d3a2",
+      "bytes": 136250,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 309.39453125
+      }
+    },
+    {
+      "z": 9,
+      "x": 252,
+      "y": 163,
+      "file": "terrarium-9-252-163.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/252/163.png",
+      "sha256": "a679ef8a9697d3c785af9b56a81354fad8680beb9db940185847c08f4a83ccb7",
+      "bytes": 137892,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 234.7578125
+      }
+    },
+    {
+      "z": 9,
+      "x": 250,
+      "y": 164,
+      "file": "terrarium-9-250-164.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/250/164.png",
+      "sha256": "05f12a052984ebc48c6313e2ccc5e1a598d8191be8173cfd7e571da2e2967171",
+      "bytes": 71432,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -34.01953125
+      }
+    },
+    {
+      "z": 9,
+      "x": 251,
+      "y": 164,
+      "file": "terrarium-9-251-164.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/251/164.png",
+      "sha256": "e93e11a9a1b81b9df433847267ab37282d082d223318d3d1e408539a8c5acf47",
+      "bytes": 91805,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": -15
+      }
+    },
+    {
+      "z": 9,
+      "x": 252,
+      "y": 164,
+      "file": "terrarium-9-252-164.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/252/164.png",
+      "sha256": "b875286a1d5cc71c0271f3652a1f6168b4ee2a8432275b8d585b7008fa41a9bc",
+      "bytes": 132741,
+      "corsAllowOrigin": "*",
+      "role": "far",
+      "decodeProbe": {
+        "px": 128,
+        "py": 128,
+        "elevationM": 182.00390625
+      }
+    }
+  ],
+  "worldcover": {
+    "file": "wc-14-8053-5218-4x3.png",
+    "source": "ESA WorldCover 2021 v200 via Terrascope WMTS (esa-worldcover-map-10m-2021-v2_map, EPSG:3857) — rendered tiles decoded to class codes by nearest palette colour",
+    "urls": [
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8053&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5218&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8053&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5219&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8053&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5220&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01"
+    ],
+    "sha256": "b80e6023e7f0ac00f9f09357be6978443eb9ef232b23afbaa4833ed51e993b93",
+    "bytes": 9738,
+    "z": 14,
+    "x0": 8053,
+    "y0": 5218,
+    "cols": 4,
+    "rows": 3,
+    "width": 1024,
+    "height": 768,
+    "encoding": "class-grayscale-png",
+    "classAtTarnProbe": 80,
+    "palette": {
+      "10": [
+        0,
+        100,
+        0
+      ],
+      "20": [
+        255,
+        187,
+        34
+      ],
+      "30": [
+        255,
+        255,
+        76
+      ],
+      "40": [
+        240,
+        150,
+        255
+      ],
+      "50": [
+        250,
+        0,
+        0
+      ],
+      "60": [
+        180,
+        180,
+        180
+      ],
+      "70": [
+        240,
+        240,
+        240
+      ],
+      "80": [
+        0,
+        100,
+        200
+      ],
+      "90": [
+        0,
+        150,
+        160
+      ],
+      "95": [
+        0,
+        207,
+        117
+      ],
+      "100": [
+        250,
+        230,
+        160
+      ]
+    }
+  },
+  "benchmarks": [
+    {
+      "id": "summit",
+      "name": "Helvellyn summit (trig pillar NY 34170 15130)",
+      "lat": 54.527156,
+      "lon": -3.018672,
+      "surveyedElevM": 950,
+      "surveySource": "OS Explorer OL5 / OS trig pillar Helvellyn, 950 m; grid ref → WGS84 via OSTN-free Helmert (±5 m)",
+      "recordedHeightM": 944.8158250462891
+    },
+    {
+      "id": "tarn-shore",
+      "name": "Red Tarn, north shore (first water cell where the line enters)",
+      "lat": 54.529474699672576,
+      "lon": -3.0065202713012695,
+      "surveyedElevM": 718,
+      "surveySource": "OS Explorer OL5 lake level 718 m (Red Tarn)",
+      "recordedHeightM": 716.5840384960175
+    },
+    {
+      "id": "valley-floor",
+      "name": "Ullswater surface off Glenridding (valley floor)",
+      "lat": 54.541,
+      "lon": -2.946,
+      "surveyedElevM": 145,
+      "surveySource": "OS Landranger 90 lake level 145 m (Ullswater)",
+      "recordedHeightM": 145.11244575294063
+    }
+  ],
+  "attribution": [
+    "Elevation: Terrain Tiles (AWS Open Data) by Mapzen/Tilezen (Joerd) — this slice: UK Environment Agency LIDAR DTM 2 m + EU-DEM (Copernicus); see tilezen/joerd attribution.md",
+    "© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium — CC BY 4.0, served by Terrascope (VITO)"
+  ],
+  "pack": {
+    "id": "tier1-glo30",
+    "root": "/fixtures/dem-ab/tier1-glo30"
+  },
+  "derivedFrom": {
+    "source": "glo30",
+    "note": "Heights resampled from Copernicus GLO-30 (DSM). z9 tiles are the shipped terrarium bytes, unchanged — see the header.",
+    "resampledZooms": [
+      11,
+      13
+    ],
+    "byteIdenticalTiles": 0,
+    "changedTiles": 15,
+    "benchmarksInherited": true
+  }
+}
