@@ -454,5 +454,221 @@
   "attribution": [
     "Elevation: Terrain Tiles (AWS Open Data) by Mapzen/Tilezen (Joerd) — a mosaic of public DEMs (SRTM plus regional overrides: 3DEP US, EU-DEM, UK EA LIDAR, …); see tilezen/joerd attribution.md",
     "© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium — CC BY 4.0, served by Terrascope (VITO)"
-  ]
+  ],
+  "factors": {
+    "koppen": {
+      "file": "koppen.png",
+      "sha256": "9cfa93fbf9e0a08dcddaa4f4fcb46a05b1b1e625388199131519c13c339e7d26",
+      "bytes": 106,
+      "license": "CC BY 4.0",
+      "source": "Köppen-Geiger V3 (Beck et al. 2023), 1991–2020 1 km",
+      "urls": [
+        "https://ndownloader.figshare.com/files/61012822"
+      ],
+      "fetchedAt": "2026-09-02T10:45:19.793Z",
+      "grid": {
+        "w": 10,
+        "h": 8,
+        "bbox": [
+          -119.59166666666667,
+          37.708333333333336,
+          -119.50833333333333,
+          37.775
+        ]
+      },
+      "values": {
+        "modalClass": 18,
+        "requestedBbox": "[-119.59044824931073,37.716525332375134,-119.51523175068928,37.77116966762486]"
+      }
+    },
+    "sand": {
+      "file": "soil-sand.png",
+      "sha256": "f3b48e13096eced5d14136336600c3998188ddc731ab5bfcbc8eed2d1fbfa11f",
+      "bytes": 437,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — sand_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/sand.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=sand_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-119.59045,-119.51523)&SUBSET=lat(37.71653,37.77117)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-09-02T10:45:20.212Z",
+      "grid": {
+        "w": 33,
+        "h": 23,
+        "bbox": [
+          -119.59045,
+          37.71653,
+          -119.51523000000002,
+          37.77117
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-sand.tif",
+        "tifSha256": "2810040052adeb3dd748e87b11fa88ddd0d38df70e9f2b9776a742ac73caf3e1",
+        "tifBytes": 1682
+      }
+    },
+    "clay": {
+      "file": "soil-clay.png",
+      "sha256": "43cb53800995de659ba5e58f747f38fb6f53b4a8ea7e6ebe4a3f7241e7d1f46a",
+      "bytes": 327,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — clay_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/clay.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=clay_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-119.59045,-119.51523)&SUBSET=lat(37.71653,37.77117)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-09-02T10:45:20.659Z",
+      "grid": {
+        "w": 33,
+        "h": 23,
+        "bbox": [
+          -119.59045,
+          37.71653,
+          -119.51523000000002,
+          37.77117
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-clay.tif",
+        "tifSha256": "e1517b5f26b8dde872d9f6f32f184cfa7f2cb17c1022b28bfbe7bf6ad88b6e0a",
+        "tifBytes": 1564
+      }
+    },
+    "cfvo": {
+      "file": "soil-cfvo.png",
+      "sha256": "006b4d3f744567bcf2236783ea039b8198895143e0013340a5ba7c4bb0da5b2b",
+      "bytes": 514,
+      "license": "CC BY 4.0",
+      "source": "SoilGrids 250m v2.0 — cfvo_5-15cm_mean (ISRIC)",
+      "urls": [
+        "https://maps.isric.org/mapserv?map=/map/cfvo.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=cfvo_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=long(-119.59045,-119.51523)&SUBSET=lat(37.71653,37.77117)&SUBSETTINGCRS=http://www.opengis.net/def/crs/EPSG/0/4326&OUTPUTCRS=http://www.opengis.net/def/crs/EPSG/0/4326"
+      ],
+      "fetchedAt": "2026-09-02T10:45:20.827Z",
+      "grid": {
+        "w": 33,
+        "h": 23,
+        "bbox": [
+          -119.59045,
+          37.71653,
+          -119.51523000000002,
+          37.77117
+        ]
+      },
+      "values": {
+        "noDataPx": 0,
+        "tifFile": "soil-cfvo.tif",
+        "tifSha256": "20da9a9725cecd6fbc1bf92a51db123e46b69fd07c61afd2361fadd994a4ffbc",
+        "tifBytes": 1786
+      }
+    },
+    "lgm": {
+      "license": "CC BY 4.0",
+      "source": "PaleoMIST v1.0 (Gowan 2019), PANGAEA 905800",
+      "urls": [
+        "https://doi.pangaea.de/10.1594/PANGAEA.905800"
+      ],
+      "fetchedAt": "2026-09-02T10:45:20.827Z",
+      "absent": "not snapshotted: no .cache/factors/paleomist.nc — the scripted source is a 3.7 GB archive (see comment); factor recorded absent until the range-read lands or a manual drop appears. Recorded rather than invented; FactorQuery reports lgm absent-with-reason until a manual cache drop or the mapping lands."
+    },
+    "lith": {
+      "license": "CC BY 4.0",
+      "source": "Macrostrat (deferred: block cut 1)",
+      "urls": [
+        "https://tiles.macrostrat.org/"
+      ],
+      "fetchedAt": "2026-09-02T10:45:20.827Z",
+      "absent": "lithology deferred per factor-stack cut line 1 (c53); Macrostrat CORS measured OPEN c57, so live fetch is viable when the MVT decode lands — the backlog item carries the path. Stated here so FIXTURE boots surface the absence too (gauntlet G3: only live boots stated it)."
+    }
+  },
+  "worldcoverFar": {
+    "file": "wc-12-686-1582-4x4.png",
+    "source": "ESA WorldCover 2021 v200 via Terrascope WMTS (esa-worldcover-map-10m-2021-v2_map, EPSG:3857) — rendered tiles decoded to class codes by nearest palette colour — the OUTER crop at z12, 4× the fine crop's extent (trees-distance S4, D329)",
+    "urls": [
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1582&TILECOL=686&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1582&TILECOL=687&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1582&TILECOL=688&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1582&TILECOL=689&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1583&TILECOL=686&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1583&TILECOL=687&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1583&TILECOL=688&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1583&TILECOL=689&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1584&TILECOL=686&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1584&TILECOL=687&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1584&TILECOL=688&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1584&TILECOL=689&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1585&TILECOL=686&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1585&TILECOL=687&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1585&TILECOL=688&FORMAT=image/png&TIME=2021-01-01",
+      "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=12&TILEROW=1585&TILECOL=689&FORMAT=image/png&TIME=2021-01-01"
+    ],
+    "sha256": "435adc963d988fac4021ec7c8dea5481752e06a3d4cbede9c09fa3e03aab1f1c",
+    "bytes": 119234,
+    "z": 12,
+    "x0": 686,
+    "y0": 1582,
+    "cols": 4,
+    "rows": 4,
+    "width": 1024,
+    "height": 1024,
+    "encoding": "class-grayscale-png",
+    "classAtTarnProbe": 10,
+    "palette": {
+      "10": [
+        0,
+        100,
+        0
+      ],
+      "20": [
+        255,
+        187,
+        34
+      ],
+      "30": [
+        255,
+        255,
+        76
+      ],
+      "40": [
+        240,
+        150,
+        255
+      ],
+      "50": [
+        250,
+        0,
+        0
+      ],
+      "60": [
+        180,
+        180,
+        180
+      ],
+      "70": [
+        240,
+        240,
+        240
+      ],
+      "80": [
+        0,
+        100,
+        200
+      ],
+      "90": [
+        0,
+        150,
+        160
+      ],
+      "95": [
+        0,
+        207,
+        117
+      ],
+      "100": [
+        250,
+        230,
+        160
+      ]
+    }
+  }
 }
