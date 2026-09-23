@@ -1,0 +1,14 @@
+[
+  {
+    "id": "red-tarn-north-v1",
+    "path": "/fixtures/regions/red-tarn-north-v1/descriptor.json",
+    "sha256": "40dc235a04b85dd368429ceb7d3501edd767f2d055bcd23cd8bb98dc53c96045",
+    "legacyInputIdentity": "01a0c61800d3afd88df78522a924bd2bf16f2dd54563d09702c17af4f13bd75f",
+    "domain": {
+      "x0": -640,
+      "x1": 640,
+      "z0": -5059.995722023671,
+      "z1": -3779.995722023671
+    }
+  }
+]

@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "id": "red-tarn-north-v1",
+  "legacyManifestSha256": "76c850fd56b01fc7b3b375b4607a69a3cc16d6fd058fb7a0a662e0121ed7f1c4",
+  "legacyInputIdentity": "01a0c61800d3afd88df78522a924bd2bf16f2dd54563d09702c17af4f13bd75f",
+  "frame": {
+    "lat": 54.5296568657547,
+    "lon": -3.0040913449193214,
+    "metersPerDegLon": 64596.934759181306
+  },
+  "origin": {
+    "x": 0,
+    "z": -4419.995722023671
+  },
+  "domain": {
+    "x0": -640,
+    "x1": 640,
+    "z0": -5059.995722023671,
+    "z1": -3779.995722023671
+  },
+  "support": {
+    "x0": -1280,
+    "x1": 1280,
+    "z0": -5699.995722023671,
+    "z1": -3139.995722023671
+  },
+  "boundary": {
+    "edge": "north",
+    "z": -3779.995722023671,
+    "legacyHalfM": 3779.995722023671,
+    "cellM": 5,
+    "gridSize": 1512,
+    "firstGridX": -3779.995722023671,
+    "ownership": "legacy"
+  },
+  "channels": {
+    "near": {
+      "status": "recorded",
+      "zoom": 13
+    },
+    "cover": {
+      "status": "recorded",
+      "zoom": 14
+    },
+    "factors": {
+      "status": "absent",
+      "reason": "No soil/climate crop acquired for this extension; derived factors await S2 generation."
+    }
+  },
+  "attribution": {
+    "dem": "Mapzen/Tilezen Terrain Tiles, AWS Open Data; UK EA / EU-DEM mosaic",
+    "cover": "ESA WorldCover 2021 v200, CC BY 4.0, Terrascope WMTS; shared wcClassOf nearest palette"
+  },
+  "tiles": [
+    {
+      "channel": "dem",
+      "z": 13,
+      "x": 4027,
+      "y": 2607,
+      "path": "/fixtures/regions/red-tarn-north-v1/dem-13-4027-2607.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4027/2607.png",
+      "acquiredUtc": "2026-09-17T08:47:03.705Z",
+      "cors": null,
+      "sha256": "64a4f27b0f986b671f4871606154d9fe40a9573b372fe1d65009586884df7bc5",
+      "bytes": 109636
+    },
+    {
+      "channel": "dem",
+      "z": 13,
+      "x": 4028,
+      "y": 2607,
+      "path": "/fixtures/regions/red-tarn-north-v1/dem-13-4028-2607.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4028/2607.png",
+      "acquiredUtc": "2026-09-17T08:47:03.929Z",
+      "cors": null,
+      "sha256": "6f246ec6967516d73af7df50181f93e1a02fd08f710a8d052617ff3786122bf4",
+      "bytes": 108650
+    },
+    {
+      "channel": "dem",
+      "z": 13,
+      "x": 4027,
+      "y": 2608,
+      "path": "/fixtures/regions/red-tarn-north-v1/dem-13-4027-2608.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4027/2608.png",
+      "acquiredUtc": "2026-09-17T08:47:04.049Z",
+      "cors": null,
+      "sha256": "68bcb20680e9e107ef8d0f4cbfe026f5e78e022ff90668c563cd8a84fe200698",
+      "bytes": 117260
+    },
+    {
+      "channel": "dem",
+      "z": 13,
+      "x": 4028,
+      "y": 2608,
+      "path": "/fixtures/regions/red-tarn-north-v1/dem-13-4028-2608.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/4028/2608.png",
+      "acquiredUtc": "2026-09-17T08:47:04.176Z",
+      "cors": null,
+      "sha256": "523015a9b4718e631320817ebd063c96c74ebbc7109671d873cdb03320798e77",
+      "bytes": 113829
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8054,
+      "y": 5215,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8054-5215.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5215&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:05.718Z",
+      "cors": null,
+      "sha256": "16f75bebe5b33c774401bad0cad2d8fcb2a37bcd354147230c5d31c050d49ca6",
+      "bytes": 856
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8055,
+      "y": 5215,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8055-5215.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5215&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:06.593Z",
+      "cors": null,
+      "sha256": "8bd17b3e111a5ca75ee0a088b46c0ab2b8775ab9f3570ee42fe6a3f965ffa549",
+      "bytes": 872
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8056,
+      "y": 5215,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8056-5215.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5215&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:07.235Z",
+      "cors": null,
+      "sha256": "77a5a6b3d980cb21a59949051da0087ff7a3ff4591062d1eb6245c39eb38470a",
+      "bytes": 1308
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8054,
+      "y": 5216,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8054-5216.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5216&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:07.728Z",
+      "cors": null,
+      "sha256": "b0cc39f0ed7d3860bb89505908b4669fa1225036feaef2524108d016ea8b9d9f",
+      "bytes": 893
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8055,
+      "y": 5216,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8055-5216.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5216&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:08.429Z",
+      "cors": null,
+      "sha256": "d8f822b663853db288b351ff9da5a3d51a61091e9827a12f4d94befe2367d6ae",
+      "bytes": 907
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8056,
+      "y": 5216,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8056-5216.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5216&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:09.079Z",
+      "cors": null,
+      "sha256": "d02800793590d71db6e5824031183aa1af6074a31670fcdee680ac9dfd8028ab",
+      "bytes": 1106
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8054,
+      "y": 5217,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8054-5217.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5217&TILECOL=8054&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:09.417Z",
+      "cors": null,
+      "sha256": "16f75bebe5b33c774401bad0cad2d8fcb2a37bcd354147230c5d31c050d49ca6",
+      "bytes": 856
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8055,
+      "y": 5217,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8055-5217.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5217&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:09.896Z",
+      "cors": null,
+      "sha256": "2e581ca854cf093401cdfd95a66aca342096dda41f6c96b3d29801d1bcbff975",
+      "bytes": 1530
+    },
+    {
+      "channel": "cover",
+      "z": 14,
+      "x": 8056,
+      "y": 5217,
+      "path": "/fixtures/regions/red-tarn-north-v1/cover-14-8056-5217.png",
+      "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5217&TILECOL=8056&FORMAT=image/png&TIME=2021-01-01",
+      "acquiredUtc": "2026-09-17T08:47:10.242Z",
+      "cors": null,
+      "sha256": "77fcf44df04522f79f6920c23cd6a504d44ed3ae0b868fabeb8700a12ed3e7c7",
+      "bytes": 2851
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://wmts.terrascope.be/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=esa-worldcover-map-10m-2021-v2_map&STYLE=default&TILEMATRIXSET=EPSG:3857&TILEMATRIX=14&TILEROW=5215&TILECOL=8055&FORMAT=image/png&TIME=2021-01-01",
+  "acquiredUtc": "2026-09-17T08:47:06.593Z",
+  "cors": null,
+  "sha256": "8bd17b3e111a5ca75ee0a088b46c0ab2b8775ab9f3570ee42fe6a3f965ffa549",
+  "bytes": 872
+}
